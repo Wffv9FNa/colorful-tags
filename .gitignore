@@ -31,6 +31,7 @@ src/*/gui/forms/LICENSE*
 src/*/gui/resources/anki*
 src/*/gui/resources/LICENSE*
 *-anki2*.zip
+*.ankiaddon
 # Temp
 .gitold
 obsolete
