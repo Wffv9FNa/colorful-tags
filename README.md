@@ -1,3 +1,47 @@
+# Colorful Tags - Bulk Edit Fork
+
+> **This is a fork** of [Glutanimate's Colorful Tags](https://github.com/glutanimate/colorful-tags) with added bulk tag operations.
+
+## What's New in This Fork
+
+This fork adds **bulk tag editing** capabilities, allowing you to efficiently manage multiple tags at once:
+
+### Features
+
+- **Multi-selection**: Use `Ctrl+Click` to select individual tags or `Shift+Click` to select ranges
+- **Bulk color assignment**: Apply the same color to multiple tags simultaneously
+- **Bulk color removal**: Remove colors from multiple selected tags at once
+- **Bulk pin/unpin**: Pin or unpin multiple tags with a single action
+- **Smart context menu**: Automatically adapts to show relevant options based on your selection
+
+### Usage
+
+1. In the Anki browser sidebar, hold `Ctrl` and click on tags to select multiple tags
+2. Right-click on any selected tag to open the context menu
+3. Choose from bulk operations like "Assign Color to Selected (N tags)"
+4. The color picker will open, and your selected color will be applied to all selected tags
+
+### Installation
+
+Download the latest `.ankiaddon` package from the [releases page](../../releases) and install it manually:
+
+1. From Anki's main window, go to **Tools → Add-ons**
+2. Click **Install from file...**
+3. Select the downloaded `.ankiaddon` file
+4. Restart Anki
+
+**Note**: This fork uses the same addon ID as the original (594329229), so you cannot have both installed simultaneously.
+
+### Version
+
+Current version: **3.0.0-beta.3**
+
+---
+
+<hr>
+
+## Original README
+
 <!-- TODO: update screenshot -->
 <p align="center"><img src="screenshots/screenshot.png"></p>
 
@@ -119,7 +163,7 @@ If you enjoy Exam Notifier, please consider supporting our work through one of t
 
 <b>Please consider checking out our:</b>
 
-- <a href="https://www.youtube.com/theanking/playlists" rel="nofollow">YouTube Channel</a>- <i>How to use Anki for beginners and advanced users.</i> 
+- <a href="https://www.youtube.com/theanking/playlists" rel="nofollow">YouTube Channel</a>- <i>How to use Anki for beginners and advanced users.</i>
 - <a href="https://www.instagram.com/ankingmed" rel="nofollow">Instagram</a>/<a href="https://www.facebook.com/ankingmed" rel="nofollow">Facebook</a>: <i>@Ankingmed</i>
 - <a href="https://www.ankingmed.com" rel="nofollow">www.AnKingMed.com</a>- <i>Recommended add-ons, tutorials and more including <b>how to download 40+ add-ons in &lt; 5min</b></i>
 - <a href="https://www.ankipalace.com/membership" rel="nofollow">Patreon</a>- <i>Support our work and <b>get individualized Anki help!</b></i>
