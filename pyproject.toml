@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "colorful-tags"
-description = "Colorful Tags Anki Add-on"
+name = "colorful-tags-dev-bulk-edit"
+description = "Colorful Tags Anki Add-on - Dev Build with Bulk Edit"
 authors = ["Glutanimate <glutanimate.com/contact>"]
 license = "AGPL-3.0-or-later"
-version = "3.0.0-beta.2"
+version = "3.0.0-beta.2+dev.bulkedit"
 
 [tool.poetry.dependencies]
 python = "^3.8"

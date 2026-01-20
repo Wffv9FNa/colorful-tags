@@ -1,14 +1,15 @@
 {
-    "display_name": "Colorful Tags",
+    "display_name": "Colorful Tags - Dev (Bulk Edit)",
     "module_name": "colorful_tags",
     "repo_name": "colorful-tags",
-    "ankiweb_id": "594329229",
-    "author": "Glutanimate",
+    "ankiweb_id": "594329230",
+    "author": "Glutanimate (Dev Build)",
     "contact": "https://glutanimate.com",
     "homepage": "https://github.com/glutanimate/colorful-tags",
     "copyright_start": 2018,
     "tags": "",
     "conflicts": [
+        "594329229",
         "1835859645",
         "829533913",
         "bettertags"

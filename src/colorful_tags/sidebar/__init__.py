@@ -21,6 +21,7 @@
 
 from aqt.browser import SidebarItem, SidebarModel  # type: ignore
 from aqt.gui_hooks import browser_sidebar_will_show_context_menu
+from aqt.qt import QAbstractItemView
 
 from .item import add_sidebar_item_child
 from .menu import maybe_add_context_actions
@@ -31,3 +32,9 @@ def patch_sidebar():
     SidebarItem.add_child = add_sidebar_item_child  # type: ignore[assignment]
     SidebarModel.data = model_data  # type: ignore[assignment]
     browser_sidebar_will_show_context_menu.append(maybe_add_context_actions)
+
+
+def enable_multi_selection(sidebar):
+    """Enable multi-selection in sidebar tree view for bulk operations."""
+    sidebar.setSelectionMode(QAbstractItemView.SelectionMode.ExtendedSelection)
+    sidebar.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
