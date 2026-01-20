@@ -35,6 +35,7 @@ src/*/gui/resources/LICENSE*
 .gitold
 obsolete
 research
+scratch/
 # Docs
 todo
 # Assets
