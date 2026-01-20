@@ -13,6 +13,16 @@ Each contribution is greatly appreciated and will help us <b>update and improve<
 
 ## [Unreleased]
 
+## [3.0.0-beta.3] - 2026-01-20
+
+### Added
+
+- **Bulk tag operations**: Select multiple tags with Ctrl+Click or Shift+Click to apply colors and pin settings to multiple tags at once
+  - Bulk color assignment
+  - Bulk color removal
+  - Bulk pin/unpin operations
+  - Context menu adapts to show tag count when multiple tags are selected
+
 ## [3.0.0] - 2022-09-15
 
 ### [Download](https://github.com/glutanimate/colorful-tags-temp/releases/tag/v3.0.0)
